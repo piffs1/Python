@@ -1,0 +1,12 @@
+print ("pow(2,3) = ", 2**3)
+print ("pow(2.0,3) = ", 2.0**3)
+print ("sqrt(2) = ", 2**(1/2))
+print ("sqrt(2.0) = ", 2.0**(1/2))
+print ("10%5 = ", 10%5)
+print ("10%6 = ", 10%6)
+print ("10div8 = ", 10 // 8)
+print ("10.0 div 5 = ", 10.0 // 5)
+print ("10.0 / 4 = ", 10.0 / 4)
+print ("10 / 5 = ", 10 / 5)
+name = "Alice"
+print ("name * 5", name * 5)
