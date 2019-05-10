@@ -7,12 +7,12 @@ while True:
 print("Моих питомцев зовут :")
 for name in petNames: #foreach analog
 	print(name)
-if "Дуся" not in petNames:
-	print("Ты забыл Дусю!")
-if "Лео" not in petNames:
-	print("Ты забыл Лео!")
+if "Собакен" not in petNames:
+	print("Ты забыл Собакена!")
+if "Кошакен" not in petNames:
+	print("Ты забыл Кошакена!")
 if "Боря" not in petNames:
 	print("Ты забыл Борю!")
-if "Тоша" in petNames:
-	print("Все впорядке, Тошу ты не забыл!")
-print ("Тоша" in petNames)
+if "Попугакен" in petNames:
+	print("Все впорядке, Попугакена ты не забыл!")
+print ("Попугакен" in petNames)

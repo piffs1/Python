@@ -10,18 +10,18 @@ else:
 	print("Такого качества у котика нет !")
 print("=======================")
 print("myCat.values is ", end=" ")
-for i in myCat.values():
+for i in myCat.values(): # Поиск по значениям
 	print(i, end=" ")
 print()
 print("=======================")
 print("myCat.keys is ", end=" ")
-for i in myCat.keys():
+for i in myCat.keys():	# Поиск по ключам
 	print(i, end=" ")
 print()
 print("=======================")
-for i in myCat.items():
+for i in myCat.items(): # Поиск по ключу-значению 
 	print(i)
-	print(type(i))
-print(myCat.keys())
+	print(type(i))		# tuple
+print(myCat.keys())		# dict_keys(myCat)
 print(myCat)
 print(pprint.pformat(myCat))
